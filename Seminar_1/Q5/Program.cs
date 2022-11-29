@@ -5,4 +5,9 @@
 */
 Console.WriteLine("Введите трёхзначное число");
 int nnn = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(nnn % 10);
+if (nnn > 99 && nnn < 1000){
+    Console.WriteLine(nnn % 10);
+}
+else{
+    Console.WriteLine("Некорректное число");
+}
