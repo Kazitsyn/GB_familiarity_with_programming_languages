@@ -2,7 +2,7 @@
 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
 2 -> " -2, -1, 0, 1, 2"
 */
-int number = Convert.ToInt32(Console.ReadLine());
-for(int i = 0 - number; number >= i; i++){
+int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+for(int i = 0-number; number >= i; i++){
     Console.WriteLine(i);
 }
