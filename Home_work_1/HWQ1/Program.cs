@@ -3,4 +3,12 @@
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
-
+Console. WriteLine("Введите первое чило: ");
+int number0 = Convert.ToInt32(Console.ReadLine());
+Console. WriteLine("Введите второе чило: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+if (number0 > number1){
+    Console.WriteLine("max = " + number0);
+} else {
+    Console.WriteLine("max = " + number1);
+}
