@@ -4,10 +4,17 @@
 -3 -> нет
 7 -> нет*/
 
-Console. WriteLine("Введите чило: ");
-int number0 = Convert.ToInt32(Console.ReadLine());
-if (number0 % 2 == 0){
-    Console.WriteLine("Четное");
-} else {
-    Console.WriteLine("Не четное");
-}
+string Even(int number)
+    {
+    if (number % 2 == 0) return "да";  
+    return "нет";
+    }
+
+Console.WriteLine(Even(4));
+Console.WriteLine(Even(-3));
+Console.WriteLine(Even(7));
+
+// Console. WriteLine("Введите чило: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(Even(number));
+

@@ -3,12 +3,20 @@
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
-Console. WriteLine("Введите первое чило: ");
-int number0 = Convert.ToInt32(Console.ReadLine());
-Console. WriteLine("Введите второе чило: ");
-int number1 = Convert.ToInt32(Console.ReadLine());
-if (number0 > number1){
-    Console.WriteLine("max = " + number0);
-} else {
-    Console.WriteLine("max = " + number1);
-}
+
+int Max(int a, int b)
+    {
+    int max = a;
+    if (a < b) max = b;
+    return max;
+    }
+
+Console.WriteLine(Max(5, 7));
+Console.WriteLine(Max(2, 10));
+Console.WriteLine(Max(-9, -3));
+
+// Console. WriteLine("Введите a: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console. WriteLine("Введите b: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(Max(a, b));
