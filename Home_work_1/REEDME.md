@@ -95,9 +95,9 @@ Console.WriteLine(Even(number));
 ***
 ### Задача 8: *Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.*
 
-5 -> 2, 4
+* 5 -> 2, 4
 
-8 -> 2, 4, 6, 8
+* 8 -> 2, 4, 6, 8
 
 [Решение:](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_1/HWQ4)
 ```c#
