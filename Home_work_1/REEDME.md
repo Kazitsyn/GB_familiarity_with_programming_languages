@@ -22,7 +22,7 @@ Console.WriteLine(Max(5, 7));
 Console.WriteLine(Max(2, 10));
 Console.WriteLine(Max(-9, -3));
 ```
-При вводе корректных данных по условии задачи:
+При вводе корректных данных по условию задачи:
 ```c#
 
 Console. WriteLine("Введите a: ");
@@ -54,7 +54,7 @@ Console.WriteLine(Max(2, 3, 7));
 Console.WriteLine(Max(44, 5, 78));
 Console.WriteLine(Max(22, 3, 9));
 ```
-При вводе корректных данных по условии задачи:
+При вводе корректных данных по условию задачи:
 
 ```c#
 Console. WriteLine("Введите первое чило: ");
@@ -86,7 +86,7 @@ Console.WriteLine(Even(4));
 Console.WriteLine(Even(-3));
 Console.WriteLine(Even(7));
 ```
-При вводе корректных данных по условии задачи:
+При вводе корректных данных по условию задачи:
 ```c#
 Console. WriteLine("Введите чило: ");
 int number = Convert.ToInt32(Console.ReadLine());
@@ -120,7 +120,7 @@ void EvenSequence(int N)
 EvenSequence(5);
 EvenSequence(8);
 ```
-При вводе корректных данных по условии задачи:
+При вводе корректных данных по условию задачи:
 ```c#
 Console.WriteLine("Введите N: ");
 int N = Convert.ToInt32(Console.ReadLine());
