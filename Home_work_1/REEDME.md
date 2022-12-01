@@ -22,6 +22,13 @@ Console.WriteLine(Max(5, 7));
 Console.WriteLine(Max(2, 10));
 Console.WriteLine(Max(-9, -3));
 ```
+Вывод консоли:
+```c#
+7
+10
+-3
+```
+
 При вводе корректных данных по условию задачи:
 ```c#
 
@@ -54,6 +61,12 @@ Console.WriteLine(Max(2, 3, 7));
 Console.WriteLine(Max(44, 5, 78));
 Console.WriteLine(Max(22, 3, 9));
 ```
+Вывод консоли:
+```c#
+7
+78
+22
+```
 При вводе корректных данных по условию задачи:
 
 ```c#
@@ -85,6 +98,12 @@ string Even(int number)
 Console.WriteLine(Even(4));
 Console.WriteLine(Even(-3));
 Console.WriteLine(Even(7));
+```
+Вывод консоли:
+```c#
+да
+нет
+нет
 ```
 При вводе корректных данных по условию задачи:
 ```c#
@@ -119,6 +138,11 @@ void EvenSequence(int N)
 
 EvenSequence(5);
 EvenSequence(8);
+```
+Вывод консоли:
+```c#
+2, 4
+2, 4, 6, 8
 ```
 При вводе корректных данных по условию задачи:
 ```c#
