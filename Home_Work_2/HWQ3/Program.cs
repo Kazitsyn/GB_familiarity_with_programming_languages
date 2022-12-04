@@ -13,7 +13,7 @@ string DayOff(int day)
             if (day < 6 && day > 0)return "нет";
             else return "да"; 
         }
-    else return "в недели всего 7 дней";
+    else return "в неделе всего 7 дней";
 }
 
 Console.WriteLine($"6 -> {DayOff(6)}");
