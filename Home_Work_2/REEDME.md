@@ -51,6 +51,7 @@ void ThirdDigit(int number)
 ThirdDigit(645);
 ThirdDigit(78);
 ThirdDigit(32679);
+
 ThirdDigit(new Random().Next(0, 100000)); 
 ```
 Вывод консоли:
@@ -85,6 +86,7 @@ Console.WriteLine($"6 -> {DayOff(6)}");
 Console.WriteLine($"7 -> {DayOff(7)}");
 Console.WriteLine($"1 -> {DayOff(1)}");
 int randomDay = new Random().Next(1, 8);
+
 Console.WriteLine($"Random day: {randomDay} -> {DayOff(randomDay)}");
 ```
 Вывод консоли:

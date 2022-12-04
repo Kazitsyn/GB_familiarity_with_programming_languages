@@ -14,4 +14,5 @@ void ThirdDigit(int number)
 ThirdDigit(645);
 ThirdDigit(78);
 ThirdDigit(32679);
+
 ThirdDigit(new Random().Next(0, 100000)); //Random 0...100000
