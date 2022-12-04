@@ -16,8 +16,8 @@ string DayOff(int day)
     else return "в недели всего 7 дней";
 }
 
-Console.WriteLine($"1 -> {DayOff(6)}");
-Console.WriteLine($"1 -> {DayOff(7)}");
+Console.WriteLine($"6 -> {DayOff(6)}");
+Console.WriteLine($"7 -> {DayOff(7)}");
 Console.WriteLine($"1 -> {DayOff(1)}");
 int randomDay = new Random().Next(1, 8);
 Console.WriteLine($"Random day: {randomDay} -> {DayOff(randomDay)}");
