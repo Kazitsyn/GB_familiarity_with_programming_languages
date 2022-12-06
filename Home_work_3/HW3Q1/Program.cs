@@ -8,7 +8,7 @@
 
 23432 -> да */
 
-int GetIndex(int number, int index)
+int GetIndex(int number, int index = 0)
 {
     switch (index)
     {
@@ -27,7 +27,7 @@ int GetIndex(int number, int index)
 
 bool Palindrome(int number)
 {
-    if (GetIndex(number, 0) == GetIndex(number, 4) && GetIndex(number, 1) == GetIndex(number, 3))
+    if (GetIndex(number) == GetIndex(number, 4) && GetIndex(number, 1) == GetIndex(number, 3))
     {
         return true;
     }
