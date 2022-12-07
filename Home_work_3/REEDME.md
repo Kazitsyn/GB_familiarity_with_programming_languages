@@ -1,5 +1,5 @@
 # Знакомство с языком программирования С#
-## Домашняя работа № 3 [GitHub](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_Work_2)
+## Домашняя работа № 3 [GitHub](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_3)
 ***
 ### **Задача 19** *Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.*
 
