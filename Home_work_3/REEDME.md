@@ -14,19 +14,22 @@
 ```c#
 int GetIndex(int number, int index = 0)
 {
-    switch (index)
+    int count = Convert.ToString(number).Length;
+    if (index < count)
     {
-        case 0:
-        return number / 10000;
-        case 1:
-        return (number / 1000) % 10;
-        case 3:
-        return (number % 100) / 10;
-        case 4: 
-        return number % 10;
-        default:
-        return -1;
+        int result = -1;
+        int del = 1;
+        int ost = 10;
+
+            for (int i = 0; i <= index; i++)
+            {
+                result = (number % ost) / del;
+                ost *= 10;
+                del *= 10;
+            }
+            return result;
     }
+    else return -1;
 }
 
 bool Palindrome(int number)
