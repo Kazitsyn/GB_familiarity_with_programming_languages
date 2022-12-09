@@ -1,5 +1,5 @@
 # Знакомство с языком программирования С#
-## Домашняя работа № 3 [GitHub](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_4)
+## Домашняя работа № 4 [GitHub](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_4)
 ***
 ### **Задача 25** *Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.*
 
