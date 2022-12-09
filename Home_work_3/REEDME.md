@@ -14,7 +14,7 @@
 ```c#
 int GetIndex(int number, int index = 0)
 {
-    int count = Convert.ToString(number).Length;
+    int count = (byte)Math.Floor(Math.Log10((int)number) + 1);
     if (index < count)
     {
         int result = -1;
