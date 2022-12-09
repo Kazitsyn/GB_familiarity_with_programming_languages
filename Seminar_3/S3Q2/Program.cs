@@ -17,7 +17,9 @@ string Method(int quarter)
             default:
             return "нужно ввести число от 1 до 4";
         }
+        
     }
+    else return "нужно ввести число от 1 до 4";
 }
 
 Console.WriteLine(Method(1));
