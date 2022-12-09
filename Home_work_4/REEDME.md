@@ -97,9 +97,10 @@ PrintSumIndex(new Random().Next(1, 999999999));
 int[] GetRandomArr(int length = 8, int randomIn = 0, int randomout = 99)
 {
     int [] Arr = new int [length];
+    Random rnd = new Random();
     for (int i = 0; i < length; i++)
     {
-        Arr[i] = new Random().Next(randomIn, randomout);
+        Arr[i] = rnd.Next(randomIn, randomout);
     }
     return Arr;
 }
