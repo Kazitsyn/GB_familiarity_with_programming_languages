@@ -37,6 +37,12 @@ int EvenArr(int[] arr)
     return result;
 }
 
+int[] test = new int[] {345, 897, 568, 234};
+PrintArr(test);
+Console.Write($" -> {EvenArr(test)}");
+
+Console.WriteLine();
+
 int[] arr = GetRandomArr();
 PrintArr(arr);
 Console.Write($" -> {EvenArr(arr)}");

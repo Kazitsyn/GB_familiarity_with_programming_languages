@@ -30,13 +30,24 @@ void PrintArr(int [] Arr)
 int OddArr(int[] arr)
 {
     int result = 0;
-    foreach (int k in arr)
+    for (int k = 1; k < arr.Length; k += 2)
     {
-        
-        if (k % 2 != 0) result += k;
+        result += arr[k];
     }
     return result;
 }
+
+int[] test = new int[] {3, 7, 23, 12};
+PrintArr(test);
+Console.Write($" -> {OddArr(test)}");
+
+Console.WriteLine();
+
+int[] test2 = new int[] {-4, -6, 89, 6};
+PrintArr(test2);
+Console.Write($" -> {OddArr(test2)}");
+
+Console.WriteLine();
 
 int[] arr = GetRandomArr();
 PrintArr(arr);
