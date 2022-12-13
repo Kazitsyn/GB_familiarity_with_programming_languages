@@ -60,7 +60,7 @@ Console.Write($" -> {EvenArr(arr)}");
 
 [Решение:](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_5/HW5Q2)
 ```c#
-int[] GetRandomArr(int length = 8, int randomIn = 0, int randomout = 1000)
+int[] GetRandomArr(int length = 8, int randomIn = -100, int randomout = 100)
 {
     int [] Arr = new int [length];
     Random rnd = new Random();
@@ -87,7 +87,6 @@ int OddArr(int[] arr)
     int result = 0;
     foreach (int k in arr)
     {
-        
         if (k % 2 != 0) result += k;
     }
     return result;
@@ -99,7 +98,7 @@ Console.Write($" -> {OddArr(arr)}");
 ```
 Вывод консоли:
 ```c#
-[139, 866, 344, 565, 274, 390, 288, 78]  -> 704
+[91, -90, -87, -56, -92, -4, -82, 93]  -> 97
 ```
 ***
 ### **Задача 38:** *Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.*

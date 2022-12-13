@@ -5,7 +5,7 @@
 
 [-4, -6, 89, 6] -> 0
 */
-int[] GetRandomArr(int length = 8, int randomIn = 0, int randomout = 1000)
+int[] GetRandomArr(int length = 8, int randomIn = -100, int randomout = 100)
 {
     int [] Arr = new int [length];
     Random rnd = new Random();
