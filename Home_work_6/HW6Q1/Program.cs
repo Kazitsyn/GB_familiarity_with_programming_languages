@@ -7,6 +7,18 @@
 */
 
 
+int GetNumbersPositiveElements(string intText)
+{
+    int positiv = 0;
+        string[] arr = intText.Split(' ');
+        for (int i = 0; i < arr.Length; i++)
+            if (Convert.ToInt32(arr[i]) > 0) positiv++;
+        return positiv;
+}
+
+    Console.Write("Введите числа через пробел: ");
+
     string input = Console.ReadLine() ?? " ";
-   
-    System.Console.WriteLine(input);
+    
+    
+    Console.WriteLine($"{input} -> {GetNumbersPositiveElements(input)}");
