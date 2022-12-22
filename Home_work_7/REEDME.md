@@ -1,6 +1,33 @@
 # Знакомство с языком программирования С#
 ## Домашняя работа № 7 [GitHub](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_7)
 ***
+### Методы применяемые в решениях задач
+
+Метод ввода чисел.
+```c#
+int GetNumber(string message)
+{
+    int result = 0;
+
+    while(true)
+    {
+        Console.Write (message);
+
+        if(int.TryParse(Console.ReadLine(), out result))
+        {
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Ввели не число");
+        }
+    }
+
+    return result;
+}
+```
+
+***
 ### **Задача 47** *Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.*
 
 
@@ -86,27 +113,6 @@ string GetElementMatrix(int[,] matrix, int i, int j)
     
 }
 
-int GetNumber(string message)
-{
-    int result = 0;
-
-    while(true)
-    {
-        Console.Write (message);
-
-        if(int.TryParse(Console.ReadLine(), out result))
-        {
-            break;
-        }
-        else
-        {
-            Console.WriteLine("Ввели не число");
-        }
-    }
-
-    return result;
-}
-
 int i = GetNumber("i = ");
 int j = GetNumber("j = ");
 string element = GetElementMatrix(matrix, i, j);
@@ -131,27 +137,6 @@ j = 1
 
 [Решение:](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_7/HW7Q3)
 ```c#
-int GetNumber(string message)
-{
-    int result = 0;
-    
-    while(true)
-    {
-        Console.Write(message);
-
-        if(int.TryParse(Console.ReadLine(), out result))
-        {
-            break;
-        }
-        else
-        {
-            Console.WriteLine("Ввели не число");
-        }
-    }
-
-    return result;
-}
-
 int[,] InitMatrix(int rows, int columns)
 {
     int[,] matrix = new int[rows, columns];
@@ -165,8 +150,6 @@ int[,] InitMatrix(int rows, int columns)
     } 
     return matrix;
 }
-
-
 
 double[] GetAverageColumns(int[,] matrix)
 {
@@ -202,7 +185,6 @@ void PrintMatrix(int[,] matrix)
     Console.WriteLine();
 }
 
-
 void PrintTask52(double [] arr)
 {
         Console.Write($"Среднее арифметическое каждого столбца: ");
@@ -222,6 +204,9 @@ PrintMatrix(matrix);
 PrintTask52(GetAverageColumns(matrix));
 
 int[,] matrixRandom = InitMatrix(GetNumber("Введите количество строк: "), GetNumber("Введите количество столбцов: "));
+
+Console.WriteLine();
+
 PrintMatrix(matrixRandom);
 PrintTask52(GetAverageColumns(matrixRandom));
 ```
@@ -233,6 +218,7 @@ PrintTask52(GetAverageColumns(matrixRandom));
 8 4 2 4
 
 Среднее арифметическое каждого столбца: 4,67; 5,67; 3,67; 3,00;
+
 Введите количество строк: 5
 Введите количество столбцов: 5
 

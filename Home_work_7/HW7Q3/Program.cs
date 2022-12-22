@@ -100,6 +100,8 @@ int[,] matrix = new int[,]{ {1, 4, 7, 2},
 PrintMatrix(matrix);
 PrintTask52(GetAverageColumns(matrix));
 
+Console.WriteLine();
+
 int[,] matrixRandom = InitMatrix(GetNumber("Введите количество строк: "), GetNumber("Введите количество столбцов: "));
 PrintMatrix(matrixRandom);
 PrintTask52(GetAverageColumns(matrixRandom));
