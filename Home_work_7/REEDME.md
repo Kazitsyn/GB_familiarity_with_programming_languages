@@ -1,9 +1,7 @@
 # Знакомство с языком программирования С#
 ## Домашняя работа № 7 [GitHub](https://github.com/Kazitsyn/GB_familiarity_with_programming_languages/tree/main/Home_work_7)
 ***
-### Методы применяемые в решениях задач
-
-Метод ввода чисел.
+### Метод ввода чисел пользователем
 ```c#
 int GetNumber(string message)
 {
