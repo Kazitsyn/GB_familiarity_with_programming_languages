@@ -3,25 +3,25 @@
 Теорема о неравенстве треугольника: каждая сторона треугольника меньше суммы двух других сторон.
 */
 
-int GetNumber(string message)
-{
-    int result;
-    while(true)
-    {
-        Console.WriteLine(message);
+// int GetNumber(string message)
+// {
+//     int result;
+//     while(true)
+//     {
+//         Console.WriteLine(message);
 
-        if(int.TryParse(Console.ReadLine(), out result))
-        {
-            break;
-        }
-        else
-        {
-            Console.WriteLine("Ввели не число.");
-        }
-    }
+//         if(int.TryParse(Console.ReadLine(), out result))
+//         {
+//             break;
+//         }
+//         else
+//         {
+//             Console.WriteLine("Ввели не число.");
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
 bool doCalculation(int a, int b, int c)
 {

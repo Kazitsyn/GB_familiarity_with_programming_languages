@@ -14,7 +14,19 @@ int[,] arr = {
 };
 
 int sum = 0;
+
 for (int i = 0; i < arr.GetLength(0); i++)
     sum += arr[i,i];
 
 Console.WriteLine($"Сумма элементов главной диагонали: {sum}");
+
+//сумма главной диагонали
+int GetSumm(int[,] matrix)
+{
+    int count = 0;
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+            count+=matrix[i, i];
+    }
+    return count;
+}

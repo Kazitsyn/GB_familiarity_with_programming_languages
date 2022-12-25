@@ -4,14 +4,14 @@
 -3; массив [6, 7, 19, 345, 3] -> да
 */
 
-bool NumsExist1(int [] arr, int target)
-{
-    foreach (int k in arr)
-    {
-        if (k == target) return true;
-    }
-    return false;
-}
+// bool NumsExist1(int [] arr, int target)
+// {
+//     foreach (int k in arr)
+//     {
+//         if (k == target) return true;
+//     }
+//     return false;
+// }
 
 void NumsExists(int[] array, int target)
 {
