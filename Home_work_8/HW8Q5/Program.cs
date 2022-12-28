@@ -31,6 +31,7 @@ int Fact(int n)
 
 void Pasc(int n)
 {
+    Console.WriteLine();
     for (int i = 0; i < n; i++)
         {
             for (int c = 0; c <= (n - i); c++) 
@@ -44,7 +45,12 @@ void Pasc(int n)
             }
             Console.WriteLine(); 
         }
-    Console.ReadLine();    
+    Console.WriteLine();    
 }
 
+
+DateTime start = DateTime.Now;
+
 Pasc(GetNumber("Введите N строк треугольника Паскаля: "));
+
+Console.WriteLine($"Время выполнения программы: {(DateTime.Now-start).TotalMilliseconds} милисекунд.");

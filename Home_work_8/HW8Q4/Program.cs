@@ -39,6 +39,10 @@ void PrintTask60(int[,,] arr)
             }
         }
     }
+    Console.WriteLine();
 }
+DateTime start = DateTime.Now;
 
 PrintTask60(Task60());
+
+Console.WriteLine($"Время выполнения программы: {(DateTime.Now-start).TotalMilliseconds} милисекунд.");

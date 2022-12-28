@@ -55,5 +55,6 @@ int[,] Spiral(int num)
 }
 
 int num = GetNumber("Введите начальное число заполнения: ");
-
+DateTime start = DateTime.Now;
 PrintMatrix(Spiral(num));
+Console.WriteLine($"Время выполнения программы: {(DateTime.Now-start).TotalMilliseconds} милисекунд.");

@@ -76,8 +76,6 @@ int[,] Task58(int[,] matr1, int[,] matr2)
     return result;
 }
 
-
-
 int rows = GetNumber("Введите количесво строк: ");
 int columns = GetNumber("Введите количесво столбцов: ");
 DateTime start = DateTime.Now;
