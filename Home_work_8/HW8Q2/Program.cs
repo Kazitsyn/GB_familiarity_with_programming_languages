@@ -91,8 +91,8 @@ string Task56(int[,] matrix)
 }
 
 
-int rows = GetNumber("Введите количесво строк: ");
-int columns = GetNumber("Введите количесво столбцов: ");
+int rows = GetNumber("Введите количество строк: ");
+int columns = GetNumber("Введите количество столбцов: ");
 DateTime start = DateTime.Now;
 int[,] matrix = InitMatrix(rows,columns);
 PrintMatrix(matrix);

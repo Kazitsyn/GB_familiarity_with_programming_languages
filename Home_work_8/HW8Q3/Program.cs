@@ -76,8 +76,8 @@ int[,] Task58(int[,] matr1, int[,] matr2)
     return result;
 }
 
-int rows = GetNumber("Введите количесво строк: ");
-int columns = GetNumber("Введите количесво столбцов: ");
+int rows = GetNumber("Введите количество строк: ");
+int columns = GetNumber("Введите количество столбцов: ");
 DateTime start = DateTime.Now;
 int[,] matrix = InitMatrix(rows,columns);
 int[,] matrix2 = InitMatrix(rows,columns);

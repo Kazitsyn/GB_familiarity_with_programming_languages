@@ -105,8 +105,8 @@ void Task54(int[,] matrix)
 }
 
 
-int rows = GetNumber("Введите количесво строк: ");
-int columns = GetNumber("Введите количесво столбцов: ");
+int rows = GetNumber("Введите количество строк: ");
+int columns = GetNumber("Введите количесвто столбцов: ");
 DateTime start = DateTime.Now;
 int[,] matrix = InitMatrix(rows,columns);
 PrintMatrix(matrix);
@@ -117,8 +117,8 @@ Console.WriteLine($"Время выполнения программы: {(DateTi
 ```
 Вывод консоли:
 ```c#
-Введите количесво строк: 5
-Введите количесво столбцов: 5
+Введите количество строк: 5
+Введите количество столбцов: 5
 
 1 4 7 3 6
 7 8 4 7 4
@@ -181,8 +181,8 @@ string Task56(int[,] matrix)
 }
 
 
-int rows = GetNumber("Введите количесво строк: ");
-int columns = GetNumber("Введите количесво столбцов: ");
+int rows = GetNumber("Введите количество строк: ");
+int columns = GetNumber("Введите количество столбцов: ");
 DateTime start = DateTime.Now;
 int[,] matrix = InitMatrix(rows,columns);
 PrintMatrix(matrix);
@@ -193,8 +193,8 @@ Console.WriteLine($"Время выполнения программы: {(DateTi
 ```
 Вывод консоли:
 ```c#
-Введите количесво строк: 5
-Введите количесво столбцов: 4
+Введите количество строк: 5
+Введите количество столбцов: 4
 
 3 8 8 9
 8 2 5 6
@@ -237,8 +237,8 @@ int[,] Task58(int[,] matr1, int[,] matr2)
     return result;
 }
 
-int rows = GetNumber("Введите количесво строк: ");
-int columns = GetNumber("Введите количесво столбцов: ");
+int rows = GetNumber("Введите количество строк: ");
+int columns = GetNumber("Введите количество столбцов: ");
 DateTime start = DateTime.Now;
 int[,] matrix = InitMatrix(rows,columns);
 int[,] matrix2 = InitMatrix(rows,columns);
@@ -255,8 +255,8 @@ Console.WriteLine($"Время выполнения программы: {(DateTi
 ```
 Вывод консоли:
 ```c#
-Введите количесво строк: 3
-Введите количесво столбцов: 3
+Введите количество строк: 3
+Введите количество столбцов: 3
 
 3 8 9
 6 5 9
