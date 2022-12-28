@@ -23,7 +23,7 @@ int GetNumber(string message)
     return result;
 }
 ```
-### Метод создания матрици случайных чисел от 1 до 9
+### Метод создания матрицы случайных чисел от 1 до 9
 ```c#
 int[,] InitMatrix(int rows, int columns)
 {
